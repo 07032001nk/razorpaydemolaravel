@@ -43,7 +43,7 @@
                     This is a fucking payment test using Razorpay.
                 </p>
                 <p>
-                    You would have tyo pay Rs.899 mother fucker.
+                    You would have to pay Rs.899 mother fucker.
                 </p>
             </div>
         </div>
