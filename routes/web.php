@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RazorpayController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('paywithrazorpay', [RazorpayController::class, 'payWithRazorpay'])->name('paywithrazorpay');
+
+Route::post('payment', [RazorpayController::class, 'payment'])->name('payment');
